@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_19">
-    <output url="file://$MODULE_DIR$/boot/target/classes" />
-    <output-test url="file://$MODULE_DIR$/boot/target/test-classes" />
-    <content url="file://$MODULE_DIR$/boot">
-      <sourceFolder url="file://$MODULE_DIR$/boot/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/boot/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/boot/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/boot/target" />
+    <output url="file://$MODULE_DIR$/boot/importer/target/classes" />
+    <output-test url="file://$MODULE_DIR$/boot/importer/target/test-classes" />
+    <content url="file://$MODULE_DIR$/boot/importer">
+      <sourceFolder url="file://$MODULE_DIR$/boot/importer/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boot/importer/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/boot/importer/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/boot/importer/target" />
     </content>
     <orderEntry type="jdk" jdkName="19" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="upstream" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:3.0.4" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:3.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:3.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:3.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:3.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:3.0.4" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.4.5" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.4.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.19.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.19.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:2.0.6" level="project" />
-    <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.33" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:3.0.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.14.2" level="project" />
